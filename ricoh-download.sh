@@ -23,6 +23,7 @@ N=$1
 function wifi_connect {
     ESSID=$1
 
+    iwctl station $WLAN scan
     iwctl station $WLAN connect $ESSID
     sudo killall udhcpc || true
     sudo udhcpc -i $WLAN
