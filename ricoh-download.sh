@@ -49,9 +49,6 @@ wifi_params | read WLAN ESSID_BASE
     exit 1
 }
 
-echo $WLAN
-echo $ESSID_BASE
-
 wifi_connect $ESSID_CAMERA
 
 photos_json=$(curl -s "$URI_BASE/photos")
