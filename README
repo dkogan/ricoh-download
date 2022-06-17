@@ -1,4 +1,5 @@
-Talk to Ricoh cameras over 802.11.
+Talk to Ricoh cameras over 802.11. This is a crude script that was tested on a
+GR IIIx only. Will be cleaned up over time
 
 Copyright: 2022 Dima Kogan
 License:   Apache-2.0
